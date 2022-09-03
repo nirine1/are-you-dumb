@@ -5,7 +5,6 @@ import java.awt.event.WindowEvent;
 import java.awt.Font;
 import java.util.Timer;
 import java.util.TimerTask;
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -14,7 +13,6 @@ public class MyWindow extends JFrame
 {
     protected Font myFont;
     protected JButton yes_button, no_button;
-    protected JFrame my_frame = new JFrame();
     protected JLabel label;
     protected Timer timer;
 
